@@ -10,7 +10,7 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
-loader = CustomDocumentLoader('data/v2/neemlinaturals.json')
+loader = CustomDocumentLoader('data/neemlinaturals.json')
 docs = loader.load()
 
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)

@@ -16,6 +16,6 @@ class Query(BaseModel):
 
 @router.post("/query")
 async def query_store(query: Query) -> Any:
-  from rag.mongo import query_embeddings
+  from api.rag.mongo import query_embeddings
   answer, sources = query_embeddings(query.store_name, query.query)
   return {"answer": answer, "sources": sources}

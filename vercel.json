@@ -12,5 +12,8 @@
     "api/**/*.py": {
       "maxDuration": 30
     }
+  },
+  "env": {
+    "APP_MODULE": "main:app"
   }
 }

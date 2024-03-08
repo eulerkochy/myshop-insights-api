@@ -1,7 +1,6 @@
-from api.v1 import rag_mongo
+from v1 import rag_mongo
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from typing import Union
 
 # Initialize app
 app = FastAPI()

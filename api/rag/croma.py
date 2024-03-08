@@ -3,7 +3,7 @@ dotenv.load_dotenv()
 
 from langchain import hub
 
-from rag.dataloader import CustomDocumentLoader
+from api.rag.dataloader import CustomDocumentLoader
 from langchain_community.vectorstores import Chroma
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough

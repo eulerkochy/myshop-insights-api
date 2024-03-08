@@ -4,8 +4,8 @@ from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_mongodb import MongoDBAtlasVectorSearch
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from rag.dataloader import CustomDocumentLoader
-from rag.db import get_rag_database
+from api.rag.dataloader import CustomDocumentLoader
+from api.rag.db import get_rag_database
 
 import os
 

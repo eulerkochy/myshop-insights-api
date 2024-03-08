@@ -160,3 +160,4 @@ cython_debug/
 #.idea/
 
 myshop-fastapi-venv/
+.vercel

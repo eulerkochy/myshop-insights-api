@@ -12,7 +12,7 @@
     }
   ],
   "functions": {
-    "main.py": {
+    "/main.py": {
       "maxDuration": 30
     }
   },
